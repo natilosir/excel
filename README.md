@@ -1,6 +1,9 @@
-
 # excel
 A simple PHP utility for working with Excel files using PhpSpreadsheet.
+
+```php
+use Natilosir\Excel\Excel;
+```
 
 
 ### Example 1: Create Excel file from array
