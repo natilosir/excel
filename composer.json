@@ -1,6 +1,6 @@
 {
     "name": "natilosir/excel",
-    "description": "A simple PHP utility for working with Excel files using PhpSpreadsheet.",
+    "description": "A PHP library for handling Excel files using PhpSpreadsheet.",
     "type": "library",
     "require": {
         "php": ">=7.4",
@@ -13,15 +13,21 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Natilosir\\Excel\\Tests\\": "tests/"
+            "Natilosir\\Excel\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Your Name",
-            "email": "your_email@example.com"
+            "name": "Natilos",
+            "email": "info@natilos.ir"
         }
     ],
+    "license": "MIT",
     "minimum-stability": "stable",
-    "license": "MIT"
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/natilosir/excel"
+        }
+    ]
 }
