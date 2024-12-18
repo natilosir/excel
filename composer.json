@@ -1,0 +1,27 @@
+{
+    "name": "natilosir/excel",
+    "description": "A simple PHP utility for working with Excel files using PhpSpreadsheet.",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "phpoffice/phpspreadsheet": "^1.29"
+    },
+    "autoload": {
+        "psr-4": {
+            "Natilosir\\Excel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Natilosir\\Excel\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your_email@example.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "license": "MIT"
+}
